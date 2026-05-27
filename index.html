@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Básico -->
+  <title>LS Motors – Tecniservicio Automotriz</title>
+  <meta name="description" content="Reserva citas, consulta servicios y adquiere productos automotrices en LS Motors, tecniservicio automotriz especializado en mantenimiento preventivo y correctivo.">
+  <meta name="keywords" content="taller automotriz, mantenimiento preventivo, ABC de motor, ABC de frenos, alineación y balanceo, diagnóstico computarizado, Quito, Ecuador">
+  <meta name="author" content="LS Motors">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23EF7B10'%3E%3Cpath d='M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z'/%3E%3C/svg%3E">
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ──── BARRA TRICOLOR DEL TALLER (Amarillo | Rojo | Negro) ──── -->
+  <div class="tricolor-bar">
+    <span class="tricolor-yellow"></span>
+    <span class="tricolor-red"></span>
+    <span class="tricolor-black"></span>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+
+      <!-- Logo prominente -->
+      <a href="#inicio" class="logo">
+        <img src="img/logo_shield.png" alt="LS Motors Logo" class="logo-img">
+        <div class="logo-text-block">
+          <span class="logo-name">LSMOTORS</span>
+          <span class="logo-tagline">Tecniservicio Automotriz</span>
+        </div>
+      </a>
+
+      <!-- Navegación -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#productos">Productos</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#contacto">Contacto</a>
+        <div class="nav-cta">
+          <a id="nav-whatsapp" href="https://wa.me/593963014177" target="_blank" rel="noopener" class="btn-agenda-cita">
+            <img src="img/whatsapp-icon.png" alt="WhatsApp" class="btn-whatsapp-icon">
+            AGENDA CITA
+          </a>
+        </div>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5 .5A9.75 9.75 0 0112 21.75c-2.676 0-5.216-.584-7.5-1.632A17.25 17.25 0 011 12.25C1 6.837 5.03 2.5 10 2.5c2.676 0 5.216.584 7.5 1.632A17.25 17.25 0 0123 12.25z"/></svg>
+          Garantía y Confianza Profesional
+        </div>
+        <h1 class="hero-title">Cuida tu vehículo con un <span class="accent">Servicio Técnico Profesional:</span> Experiencia y Confianza</h1>
+        <p class="hero-subtitle">En LS Motors realizamos mantenimiento preventivo y correctivo con garantía profesional para ayudarte a mejorar el rendimiento, la seguridad y la vida útil de tu carro.</p>
+
+        <div class="hero-buttons">
+          <a id="hero-reservar" href="#" target="_blank" class="btn btn-primary btn-lg">Reservar cita</a>
+          <a id="hero-whatsapp" href="https://wa.me/593963014177" target="_blank" rel="noopener" class="btn-hero-whatsapp btn-lg">
+            <img src="img/whatsapp-icon.png" alt="WhatsApp" class="btn-whatsapp-icon">
+            Escribir por WhatsApp
+          </a>
+        </div>
+
+        <div class="hero-benefits">
+          <div class="benefit-card">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+            <h4>Diagnóstico confiable</h4>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+            <h4>Atención profesional</h4>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+            <h4>Mantenimiento preventivo</h4>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
+            <h4>Servicio responsable</h4>
+          </div>
+        </div>
+      
+      <!-- Trust bar of Brands (Taller Multimarca) -->
+      <div class="hero-brands">
+        <span class="hero-brands-title">Taller Multimarca</span>
+        <div class="hero-brands-list">
+          <!-- Volkswagen -->
+          <div class="hero-brand-item" title="Volkswagen">
+            <img class="hero-brand-logo" src="img/brands/volkswagen.png" alt="Volkswagen">
+          </div>
+          <!-- KIA -->
+          <div class="hero-brand-item" title="KIA">
+            <img class="hero-brand-logo" src="img/brands/kia.png" alt="Kia">
+          </div>
+          <!-- Renault -->
+          <div class="hero-brand-item" title="Renault">
+            <img class="hero-brand-logo" src="img/brands/renault.png" alt="Renault">
+          </div>
+          <!-- Hyundai -->
+          <div class="hero-brand-item" title="Hyundai">
+            <img class="hero-brand-logo" src="img/brands/hyundai.png" alt="Hyundai">
+          </div>
+          <!-- Chevrolet -->
+          <div class="hero-brand-item" title="Chevrolet">
+            <img class="hero-brand-logo" src="img/brands/chevrolet.png" alt="Chevrolet">
+          </div>
+          <!-- Toyota -->
+          <div class="hero-brand-item" title="Toyota">
+            <img class="hero-brand-logo" src="img/brands/toyota.png" alt="Toyota">
+          </div>
+          <!-- Great Wall -->
+          <div class="hero-brand-item" title="Great Wall">
+            <img class="hero-brand-logo" src="img/brands/great_wall.svg" alt="Great Wall">
+          </div>
+          <!-- Chery -->
+          <div class="hero-brand-item" title="Chery">
+            <img class="hero-brand-logo" src="img/brands/chery.png" alt="Chery">
+          </div>
+          <!-- Nissan -->
+          <div class="hero-brand-item" title="Nissan">
+            <img class="hero-brand-logo" src="img/brands/nissan.png" alt="Nissan">
+          </div>
+          <!-- Suzuki -->
+          <div class="hero-brand-item" title="Suzuki">
+            <img class="hero-brand-logo" src="img/brands/suzuki.svg" alt="Suzuki">
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECCIÓN DE PROMOCIONES O COMBOS
+       ══════════════════════════════════════ -->
+  <section class="section promotions" id="promociones">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ahorro y Calidad</span>
+        <h2 class="section-title">COMBOS DE MANTENIMIENTO LS MOTORS</h2>
+        <p class="section-subtitle">Aprovecha nuestras combinaciones de servicios diseñadas para dar el mejor cuidado a tu vehículo optimizando costos.</p>
+      </div>
+
+      <div class="combos-grid">
+        <!-- Combo 1: LS Essential -->
+        <div class="combo-card">
+          <div class="combo-badge">Combo 01</div>
+          <h3>LS Essential</h3>
+          <div class="combo-price">Desde <span class="price-amount">$99.99</span></div>
+          <p>Mantenimiento esencial para cuidar el motor, frenos y puntos básicos de seguridad del vehículo.</p>
+          <ul class="combo-includes">
+            <li>Cambio de aceite 5W30 o 10W30</li>
+            <li>Incluye 1 galón de aceite + 1 filtro de aceite metálico</li>
+            <li>Filtro de aire de motor</li>
+            <li>Filtro de cabina</li>
+            <li>ABC de frenos</li>
+            <li>Revisión de puntos de seguridad</li>
+            <li>Limpieza de cuerpo de aceleración</li>
+            <li>Rotación de neumáticos</li>
+          </ul>
+          <div class="combo-footer">
+            <span class="combo-terms">* Aplican términos y condiciones. Valores corresponden a pagos con transferencia y efectivo.</span>
+            <a href="#" target="_blank" class="btn btn-primary btn-sm btn-combo-whatsapp" data-combo="LS Essential">
+              Consultar combo
+            </a>
+          </div>
+        </div>
+
+        <!-- Combo 2: LS Plus Frenos -->
+        <div class="combo-card">
+          <div class="combo-badge">Combo 02</div>
+          <h3>LS Plus Frenos</h3>
+          <div class="combo-price">Desde <span class="price-amount">$149.99</span></div>
+          <p>Mantenimiento preventivo con servicio adicional en frenos delanteros, ideal para mejorar la seguridad del vehículo.</p>
+          <ul class="combo-includes">
+            <li>Cambio de aceite 5W30 o 10W30</li>
+            <li>Incluye 1 galón de aceite + 1 filtro de aceite metálico</li>
+            <li>Filtro de aire de motor</li>
+            <li>Filtro de cabina</li>
+            <li>ABC de frenos</li>
+            <li>Revisión de puntos de seguridad</li>
+            <li>Limpieza de cuerpo de aceleración</li>
+            <li>Rotación de neumáticos</li>
+            <li>Rectificado de discos delanteros</li>
+            <li>Cambio de pastillas delanteras</li>
+          </ul>
+          <div class="combo-footer">
+            <span class="combo-terms">* Aplican términos y condiciones. Valores corresponden a pagos con transferencia y efectivo.</span>
+            <a href="#" target="_blank" class="btn btn-primary btn-sm btn-combo-whatsapp" data-combo="LS Plus Frenos">
+              Consultar combo
+            </a>
+          </div>
+        </div>
+
+        <!-- Combo 3: LS Pro Motor & Frenos -->
+        <div class="combo-card">
+          <div class="combo-badge">Combo 03</div>
+          <h3>LS Pro Motor & Frenos</h3>
+          <div class="combo-price">Desde <span class="price-amount">$139.99</span></div>
+          <p>Servicio profesional enfocado en el cuidado del motor, sistema de frenos y rendimiento general del vehículo.</p>
+          <ul class="combo-includes">
+            <li>Cambio de aceite 5W30 o 10W30</li>
+            <li>Incluye 1 galón de aceite + 1 filtro de aceite metálico</li>
+            <li>Filtro de aire de motor</li>
+            <li>Filtro de cabina</li>
+            <li>ABC de frenos</li>
+            <li>Revisión de puntos de seguridad</li>
+            <li>ABC de motor</li>
+            <li>Rotación de neumáticos</li>
+            <li>Limpieza de inyectores</li>
+            <li>Cambio de microfiltros</li>
+          </ul>
+          <div class="combo-footer">
+            <span class="combo-terms">* Aplican términos y condiciones. Valores corresponden a pagos con transferencia y efectivo.</span>
+            <a href="#" target="_blank" class="btn btn-primary btn-sm btn-combo-whatsapp" data-combo="LS Pro Motor & Frenos">
+              Consultar combo
+            </a>
+          </div>
+        </div>
+
+        <!-- Combo 4: LS Performance -->
+        <div class="combo-card">
+          <div class="combo-badge">Combo 04</div>
+          <h3>LS Performance</h3>
+          <div class="combo-price">Desde <span class="price-amount">$199.99</span></div>
+          <p>Combo completo para mejorar el rendimiento del motor y reforzar el sistema de frenos delanteros.</p>
+          <ul class="combo-includes">
+            <li>Cambio de aceite 5W30 o 10W30</li>
+            <li>Incluye 1 galón de aceite + 1 filtro de aceite metálico</li>
+            <li>Filtro de aire de motor</li>
+            <li>Filtro de cabina</li>
+            <li>ABC de frenos</li>
+            <li>Revisión de puntos de seguridad</li>
+            <li>ABC de motor</li>
+            <li>Rotación de neumáticos</li>
+            <li>Limpieza de inyectores</li>
+            <li>Cambio de microfiltros</li>
+            <li>Reemplazo de bujías</li>
+            <li>Rectificado de discos delanteros</li>
+            <li>Cambio de pastillas delanteras</li>
+          </ul>
+          <div class="combo-footer">
+            <span class="combo-terms">* Aplican términos y condiciones. Valores corresponden a pagos con transferencia y efectivo.</span>
+            <a href="#" target="_blank" class="btn btn-primary btn-sm btn-combo-whatsapp" data-combo="LS Performance">
+              Consultar combo
+            </a>
+          </div>
+        </div>
+
+        <!-- Combo 5: LS Premium Integral -->
+        <div class="combo-card">
+          <div class="combo-badge">Combo 05</div>
+          <h3>LS Premium Integral</h3>
+          <div class="combo-price">Desde <span class="price-amount">$264.99</span></div>
+          <p>Mantenimiento integral para motor, frenos, fluidos y transmisión manual, ideal para una revisión más completa del vehículo.</p>
+          <ul class="combo-includes">
+            <li>Cambio de aceite 5W30 o 10W30</li>
+            <li>Incluye 1 galón de aceite + 1 filtro de aceite metálico</li>
+            <li>Filtro de aire de motor</li>
+            <li>Filtro de cabina</li>
+            <li>ABC de frenos</li>
+            <li>Revisión de puntos de seguridad</li>
+            <li>ABC de motor</li>
+            <li>Rotación de neumáticos</li>
+            <li>Limpieza de inyectores</li>
+            <li>Cambio de microfiltros</li>
+            <li>Reemplazo de bujías</li>
+            <li>Cambio de líquido refrigerante</li>
+            <li>Cambio de líquido de frenos</li>
+            <li>Cambio de aceite de caja manual</li>
+          </ul>
+          <div class="combo-footer">
+            <span class="combo-terms">* Aplican términos y condiciones. Valores corresponden a pagos con transferencia y efectivo.</span>
+            <a href="#" target="_blank" class="btn btn-primary btn-sm btn-combo-whatsapp" data-combo="LS Premium Integral">
+              Consultar combo
+            </a>
+          </div>
+        </div>
+
+        <!-- Combo 6: LS Elite Full Service -->
+        <div class="combo-card">
+          <div class="combo-badge">Combo 06</div>
+          <h3>LS Elite Full Service</h3>
+          <div class="combo-price">Desde <span class="price-amount">$314.99</span></div>
+          <p>El servicio más completo de LS Motors, diseñado para una revisión profunda del motor, frenos, fluidos y sistema catalítico.</p>
+          <ul class="combo-includes">
+            <li>Cambio de aceite 5W30 o 10W30</li>
+            <li>Incluye 1 galón de aceite + 1 filtro de aceite metálico</li>
+            <li>Filtro de aire de motor</li>
+            <li>Filtro de cabina</li>
+            <li>ABC de frenos</li>
+            <li>Revisión de puntos de seguridad</li>
+            <li>ABC de motor</li>
+            <li>Rotación de neumáticos</li>
+            <li>Limpieza de inyectores</li>
+            <li>Cambio de microfiltros</li>
+            <li>Reemplazo de bujías</li>
+            <li>Cambio de líquido refrigerante</li>
+            <li>Cambio de líquido de frenos</li>
+            <li>Cambio de aceite de caja manual</li>
+            <li>Limpieza y descarbonización catalítica</li>
+          </ul>
+          <div class="combo-footer">
+            <span class="combo-terms">* Aplican términos y condiciones. Valores corresponden a pagos con transferencia y efectivo.</span>
+            <a href="#" target="_blank" class="btn btn-primary btn-sm btn-combo-whatsapp" data-combo="LS Elite Full Service">
+              Consultar combo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECCIÓN DE PRODUCTOS PARA EL TALLER
+       ══════════════════════════════════════ -->
+  <section class="section products" id="productos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Catálogo Automotriz</span>
+        <h2 class="section-title">Productos automotrices para tu vehículo</h2>
+        <p class="section-subtitle">Contamos con insumos homologados, repuestos de alta calidad y lubricantes de marcas líderes a nivel mundial para garantizar el óptimo cuidado de tu vehículo.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- 1. Filtros de alto rendimiento -->
+        <div class="product-card-premium">
+          <div class="product-card-img-container">
+            <img src="img/filtros_alto_rendimiento.jpg" alt="Filtros de alto rendimiento" class="product-card-img">
+            <span class="product-card-badge">Filtración</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Filtros de <strong>alto rendimiento</strong></h3>
+            <p>Filtros sintéticos de aceite y aire de alta duración diseñados para capturar impurezas extremas y soportar altas presiones de lubricación.</p>
+            <ul class="product-card-specs">
+              <li>Retención superior de micropartículas</li>
+              <li>Mayor flujo y estabilidad de presión</li>
+              <li>Protección y pureza prolongada del motor</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Filtros de alto rendimiento">
+              Cotizar Filtros de alto rendimiento
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Aceite de Motor Mannol -->
+        <div class="product-card-premium show" data-category="lubricantes">
+          <div class="product-card-img-container">
+            <img src="img/aceite_mannol.png" alt="Aceite de Motor Mannol" class="product-card-img">
+            <span class="product-card-badge">Lubricantes</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Aceite de Motor <strong>Mannol</strong></h3>
+            <p>Lubricante de tecnología alemana formulado para ofrecer una película protectora constante y reducir el desgaste interno.</p>
+            <ul class="product-card-specs">
+              <li>Excelente estabilidad térmica y antioxidante</li>
+              <li>Fórmula premium contra lodos y depósitos</li>
+              <li>Homologado bajo estándares internacionales</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Aceite de Motor Mannol">
+              Cotizar Aceite Mannol
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Aceite de Motor Wolver -->
+        <div class="product-card-premium show" data-category="lubricantes">
+          <div class="product-card-img-container">
+            <img src="img/aceite_wolver.png" alt="Aceite de Motor Wolver" class="product-card-img">
+            <span class="product-card-badge">Lubricantes</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Aceite de Motor <strong>Wolver</strong></h3>
+            <p>Aceite sintético premium de alto rendimiento formulado para motores de alta exigencia que operan en climas y cargas severas.</p>
+            <ul class="product-card-specs">
+              <li>Protección de arranque en frío extrema</li>
+              <li>Máxima resistencia a altas temperaturas</li>
+              <li>Intervalos extendidos de cambio de aceite</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Aceite de Motor Wolver">
+              Cotizar Aceite Wolver
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Aceite de Motor Liqui Moly -->
+        <div class="product-card-premium show" data-category="lubricantes">
+          <div class="product-card-img-container">
+            <img src="img/aceite_liquimoly.png" alt="Aceite de Motor Liqui Moly" class="product-card-img">
+            <span class="product-card-badge">Lubricantes</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Aceite de Motor <strong>Liqui Moly</strong></h3>
+            <p>Lubricantes de alta gama con aditivos exclusivos para una suavidad de marcha única y protección óptima contra el desgaste.</p>
+            <ul class="product-card-specs">
+              <li>Reducción significativa del ruido de motor</li>
+              <li>Bajo consumo de aceite por evaporación</li>
+              <li>Limpieza activa de componentes internos</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Aceite de Motor Liqui Moly">
+              Cotizar Aceite Liqui Moly
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Aditivos -->
+        <div class="product-card-premium show" data-category="accesorios">
+          <div class="product-card-img-container">
+            <img src="img/aditivos.png" alt="Aditivos" class="product-card-img">
+            <span class="product-card-badge">Aditivos</span>
+          </div>
+          <div class="product-card-info">
+            <h3><strong>Aditivos</strong></h3>
+            <p>Tratamientos avanzados para combustible y aceite que restauran el rendimiento del motor y limpian el sistema de escape.</p>
+            <ul class="product-card-specs">
+              <li>Limpiadores de inyectores y catalizadores</li>
+              <li>Tratamientos antifricción con MoS2 y Éster</li>
+              <li>Optimizadores de compresión del motor</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Aditivos">
+              Cotizar Aditivos
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Refrigerantes -->
+        <div class="product-card-premium show" data-category="repuestos-frenos">
+          <div class="product-card-img-container">
+            <img src="img/refrigerantes.png" alt="Refrigerantes" class="product-card-img">
+            <span class="product-card-badge">Fluidos</span>
+          </div>
+          <div class="product-card-info">
+            <h3><strong>Refrigerantes</strong></h3>
+            <p>Anticongelante and refrigerante de alto espectro formulado para una disipación óptima del calor y protección anticorrosiva.</p>
+            <ul class="product-card-specs">
+              <li>Evita la ebullición y el congelamiento</li>
+              <li>Protección activa para bomba de agua y radiador</li>
+              <li>Fórmula de larga duración (Tecnología OAT)</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Refrigerantes">
+              Cotizar Refrigerantes
+            </a>
+          </div>
+        </div>
+
+        <!-- 7. Pastillas, zapatas y discos de freno -->
+        <div class="product-card-premium show" data-category="repuestos-frenos">
+          <div class="product-card-img-container">
+            <img src="img/pastillas_discos_freno.png" alt="Pastillas, zapatas y discos de freno" class="product-card-img">
+            <span class="product-card-badge">Seguridad</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Pastillas, zapatas y discos de <strong>freno</strong></h3>
+            <p>Componentes de frenado premium fabricados con compuesto de carbono para un frenado inmediato, silencioso y de alto confort.</p>
+            <ul class="product-card-specs">
+              <li>Material de carbón que reduce ruidos y polvo</li>
+              <li>Discos balanceados para evitar vibraciones</li>
+              <li>Alta resistencia a la fatiga térmica</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Pastillas, zapatas y discos de freno">
+              Cotizar Pastillas, zapatas y discos de freno
+            </a>
+          </div>
+        </div>
+
+        <!-- 8. Limpiaparabrisas -->
+        <div class="product-card-premium show" data-category="accesorios">
+          <div class="product-card-img-container">
+            <img src="img/limpiaparabrisas.jpg" alt="Limpiaparabrisas" class="product-card-img">
+            <span class="product-card-badge">Visibilidad</span>
+          </div>
+          <div class="product-card-info">
+            <h3><strong>Limpiaparabrisas</strong></h3>
+            <p>Plumillas limpiaparabrisas con perfil de goma aerodinámico que garantizan un barrido perfecto, duradero y silencioso bajo lluvia severa.</p>
+            <ul class="product-card-specs">
+              <li>Goma natural tratada con grafito</li>
+              <li>Spoiler aerodinámico que evita desprendimientos</li>
+              <li>Ajuste exacto y fácil instalación</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Limpiaparabrisas">
+              Cotizar Limpiaparabrisas
+            </a>
+          </div>
+        </div>
+
+        <!-- 9. Aceites de transmisión -->
+        <div class="product-card-premium show" data-category="lubricantes">
+          <div class="product-card-img-container">
+            <img src="img/aceites_transmision.png" alt="Aceites de transmisión" class="product-card-img">
+            <span class="product-card-badge">Transmisión</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Aceites de <strong>transmisión</strong></h3>
+            <p>Fluido lubricante de alta viscosidad para transmisiones manuales y automáticas que previene el desgaste en engranajes y sincronizadores.</p>
+            <ul class="product-card-specs">
+              <li>Cambios de marcha más suaves y precisos</li>
+              <li>Excelente comportamiento térmico extremo</li>
+              <li>Protección prolongada de rodamientos y piñones</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Aceites de transmisión">
+              Cotizar Aceites de transmisión
+            </a>
+          </div>
+        </div>
+
+        <!-- 10. Iluminación -->
+        <div class="product-card-premium show" data-category="accesorios">
+          <div class="product-card-img-container">
+            <img src="img/iluminacion.png" alt="Iluminación" class="product-card-img">
+            <span class="product-card-badge">Iluminación</span>
+          </div>
+          <div class="product-card-info">
+            <h3><strong>Iluminación</strong></h3>
+            <p>Focos halógenos y LED Bosch de alto alcance y brillo, diseñados bajo estrictas normas de tráfico para máxima visibilidad nocturna.</p>
+            <ul class="product-card-specs">
+              <li>Distribución óptima y precisa de la luz</li>
+              <li>Mayor durabilidad y resistencia a vibraciones</li>
+              <li>Reemplazo fácil e iluminación homologada</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary btn-product-whatsapp" data-product="Iluminación">
+              Cotizar Iluminación
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECCIÓN DE ENVÍOS A DOMICILIO (DELIVERY)
+       ══════════════════════════════════════ -->
+  <section class="section delivery-promo-section" id="delivery">
+    <div class="container">
+      <div class="delivery-banner animate-glow">
+        <div class="delivery-banner-content">
+          <div class="delivery-promo-badge">
+            <span class="pct">10%</span>
+            <span class="txt">DESC. EXTRA</span>
+          </div>
+          <div class="delivery-text-block">
+            <span class="delivery-section-tag">SERVICIO DE DELIVERY EXPRESS</span>
+            <h3>¡Envío a Domicilio disponible en todo el país!</h3>
+            <p>Adquiere todos tus productos automotrices (aceites, filtros, pastillas de freno, limpiaparabrisas, aditivos y focos) con entrega directa a tu hogar, oficina o taller. Compra con total comodidad y recibe un <strong>descuento adicional especial del 10%</strong> en el total de tu pedido mediante esta modalidad.</p>
+          </div>
+          <div class="delivery-cta">
+            <a id="delivery-whatsapp" href="#" target="_blank" class="btn btn-primary btn-delivery-whatsapp">
+              <img src="img/whatsapp-icon.png" alt="WhatsApp" class="btn-whatsapp-icon">
+              Hacer pedido con descuento
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECCIÓN DE CONFIANZA
+       ══════════════════════════════════════ -->
+  <section class="section why-us">
+    <div class="container why-us-content">
+      <div class="why-us-text">
+        <span class="section-tag">¿Por qué nosotros?</span>
+        <h2>¿Por qué elegir LS Motors?</h2>
+        <p>En LS Motors trabajamos con absoluta responsabilidad y estricto criterio técnico para ofrecer soluciones claras, seguras y enfocadas en el cuidado real y duradero de tu vehículo.</p>
+        
+        <div class="why-us-points">
+          <div class="why-point">
+            <div class="why-point-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span>Atención profesional</span>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span>Trabajo responsable</span>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span>Diagnóstico claro</span>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span>Mantenimiento preventivo</span>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span>Servicio personalizado</span>
+          </div>
+          <div class="why-point">
+            <div class="why-point-icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span>Cuidado real para tu carro</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-us-visual">
+        <div class="why-us-image">
+          <img src="https://images.pexels.com/photos/12456842/pexels-photo-12456842.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Diagnóstico Computarizado LS Motors">
+        </div>
+        <div class="why-us-stat">
+          <strong>100%</strong>
+          <span>Clientes Satisfechos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECCIÓN DE TESTIMONIALS
+       ══════════════════════════════════════ -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Opinión de Clientes</span>
+        <h2 class="section-title">Lo que dicen de nosotros</h2>
+        <p class="section-subtitle">La confianza de nuestros clientes es el motor que nos impulsa a mantener los más altos niveles de calidad y transparencia.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonio 1 -->
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <!-- 5 estrellas en SVG -->
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>“Me ayudaron con el mantenimiento de frenos y el carro quedó mucho más seguro. Se nota el profesionalismo y el cuidado técnico.”</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div class="testimonial-author-info">
+              <strong>Cliente LS Motors</strong>
+              <span>Quito, Ecuador</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>“Excelente atención, explican perfectamente el trabajo mecánico y de diagnóstico antes de realizarlo. Precios justos y transparentes.”</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">CF</div>
+            <div class="testimonial-author-info">
+              <strong>Cliente frecuente</strong>
+              <span>Quito, Ecuador</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <blockquote>“Llevé mi vehículo por una vibración molesta y lo solucionaron rápido con la alineación y balanceo computarizado. Muy recomendados.”</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">CS</div>
+            <div class="testimonial-author-info">
+              <strong>Cliente satisfecho</strong>
+              <span>Valle de los Chillos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SECCIÓN DE CONTACTO
+       ══════════════════════════════════════ -->
+  <section class="section contact" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ubicación y Canales</span>
+        <h2 class="section-title">Visítanos o escríbenos</h2>
+        <p class="section-subtitle">Estamos listos para atender todas tus consultas mecánicas o agendar el diagnóstico de tu auto.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Información de contacto -->
+        <div class="contact-info">
+          <!-- Dirección -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <h4>Dirección del taller</h4>
+              <!-- Reemplazar con la dirección física real -->
+              <p>Av. Eloy Alfaro y de los Nogales N49-118<br>&quot;A lado de la casa del escape&quot;<br>Quito - Ecuador</p>
+            </div>
+          </div>
+
+          <!-- Horario -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <h4>Horario de atención</h4>
+              <p>Lunes a Viernes: 8:00 AM - 5:00 PM<br>Sábados: 8:00 AM - 4:00 PM<br>Domingos: 8:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+
+          <!-- Canales digitales -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <h4>Contacto Directo</h4>
+              <p style="margin-bottom: 10px;">Comunícate directamente con un asesor por WhatsApp para cualquier inquietud o cotización rápida.</p>
+              <a id="contact-whatsapp" href="#" target="_blank" class="btn btn-whatsapp btn-sm">
+                <img src="img/whatsapp-icon.png" alt="WhatsApp" class="btn-whatsapp-icon">
+                Escríbenos por WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Formas de Pago -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" ry="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="7" y1="15" x2="7.01" y2="15"/><line x1="11" y1="15" x2="13" y2="15"/></svg>
+            </div>
+            <div>
+              <h4>Formas de pago</h4>
+              <p>Aceptamos pagos en efectivo, transferencia bancaria y todas las tarjetas de crédito y débito para tu comodidad.</p>
+            </div>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div>
+            <h4 style="font-family: var(--font-heading); font-size: 0.85rem; font-weight: 700; color: var(--color-primary); margin-bottom: 0.8rem;">Siguenos en redes sociales</h4>
+            <div class="contact-socials">
+              <!-- Reemplazar los href con tus enlaces reales de redes sociales -->
+              <a href="https://www.facebook.com/share/1BBzVSaD2h/?mibextid=wwXIfr" target="_blank" class="social-link" aria-label="Facebook">
+                <svg viewBox="0 0 24 24"><path d="M9 8H7v3h2v9h4v-9h3.61l.54-3H13V6c0-.88.72-1 1-1h3V1h-4c-3.3 0-5 1.7-5 5v2z"/></svg>
+              </a>
+              <a href="https://www.tiktok.com/@lsmotors21?_r=1&_t=ZS-96YNJx9MgVU" target="_blank" class="social-link" aria-label="TikTok">
+                <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.86-.74-3.95-1.72-.1-.09-.17-.18-.26-.28v6.74c0 3.33-1.73 6.64-5.02 7.68-3.08.97-6.77-.2-8.31-2.99-1.75-3.17-.67-7.85 2.88-9.39.88-.38 1.83-.55 2.78-.54v4.01c-.81-.05-1.67.14-2.31.67-.93.75-1.12 2.18-.54 3.19.64 1.12 2.11 1.64 3.28 1.15 1.05-.44 1.61-1.58 1.58-2.71a298.7 298.7 0 00.02-12.1c-.08-.68-.11-1.37-.1-2.06z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="contact-map">
+          <iframe src="https://maps.google.com/maps?q=LS%20MOTORS,%20Av.%20Eloy%20Alfaro%20y%20de%20los%20Nogales,%20Quito&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed" allowfullscreen="" loading="lazy"></iframe>
+          <a href="https://www.google.com/maps/place/LS+MOTORS/data=!4m2!3m1!1s0x0:0xbd5f5aee1edba956?sa=X&amp;ved=1t:2428&amp;ictx=111" target="_blank" class="btn btn-secondary btn-sm" style="position: absolute; bottom: 15px; left: 15px; z-index: 10; box-shadow: var(--shadow-md);">Cómo llegar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Columna Marca -->
+        <div class="footer-brand">
+          <a href="#inicio" class="logo">
+            <img src="img/logo_shield.png" alt="LS Motors Logo" class="logo-img">
+            <div class="logo-text-block">
+              <span class="logo-name">LSMOTORS</span>
+              <span class="logo-tagline">Tecniservicio Automotriz</span>
+            </div>
+          </a>
+          <p>Mantenimiento automotriz responsable para cuidar tu vehículo con la mayor seguridad y transparencia.</p>
+        </div>
+
+
+        <!-- Columna Enlaces -->
+        <div class="footer-col">
+          <h4>Secciones</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a id="footer-reservar" href="#" target="_blank">Reservar cita</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#promociones">Combos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna Especialidades -->
+        <div class="footer-col">
+          <h4>Servicios Clave</h4>
+          <ul>
+            <li><a href="#servicios">ABC de motor</a></li>
+            <li><a href="#servicios">ABC de frenos</a></li>
+            <li><a href="#servicios">Alineación y balanceo</a></li>
+            <li><a href="#servicios">Diagnóstico computarizado</a></li>
+            <li><a href="#servicios">Cambio de aceite</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna Contacto -->
+        <div class="footer-col">
+          <h4>Contáctanos</h4>
+          <p style="font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.6; margin-bottom: 10px;">
+            WhatsApp: <strong style="color: var(--color-yellow);">0963014177</strong><br>
+            Comunícate para urgencias o consultas inmediatas.
+          </p>
+          <p style="font-size: 0.8rem; color: rgba(255,255,255,0.4); line-height: 1.5;">
+            Aceptamos: <strong style="color: var(--color-white);">Efectivo, Transferencia, Tarjetas de Crédito y Débito</strong>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Disclaimer & Copyright -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 LS Motors – Tecniservicio Automotriz. Todos los derechos reservados.</p>
+        <p class="footer-disclaimer">Los servicios y productos están sujetos a disponibilidad y revisión previa del vehículo. Las marcas mencionadas son propiedad de sus respectivos dueños y se usan con fines informativos.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+       BOTONES FLOTANTES
+       ══════════════════════════════════════ -->
+  <!-- WhatsApp Flotante Principal -->
+  <a id="float-whatsapp" href="#" target="_blank" class="floating-whatsapp" aria-label="Escríbenos por WhatsApp">
+    <img src="img/whatsapp-icon.png" alt="WhatsApp" class="floating-whatsapp-img">
+  </a>
+
+  <!-- CTA Flotante inferior para móviles -->
+  <div class="floating-cta-mobile">
+    <a id="mobile-reservar" href="#" target="_blank" class="btn btn-primary btn-sm">Reservar cita ahora</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
